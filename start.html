@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>HTML Lesson</title>
+    <style>
+      label {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <div> 
+        <label for = "email">Email: </label>
+        <input type="email" name = "email"> 
+        <label for = "password">Password: </label>
+        <input type="password" name = "password"> 
+      </div>
+
+      <div>
+        <label for = "Name_lastname">Name and Lastname: </label>
+        <input type="text" name = "Name_lastname" placeholder="Mario rossi"> 
+
+        <label for = "birthday">Date of birth: </label>
+        <input type="date" name = "birthday"> 
+
+        <label for = "number">Telefon number: </label>
+        <input type="tel" name = "number">
+      </div>
+      
+      <div>
+        <label for="plan">Plans</label>
+        <select id="plan" name="plan">
+          <option value="0">Free</option>
+          <optgroup label="Monthly">
+            <option value="399">3.99$/month</option>
+            <option value="699">6.99$/month</option>
+            <option value="1299">12.99$/month</option>
+          </optgroup>
+        </select> 
+        <label for="pro">Pro Plan</label>
+        <input type="checkbox" id="Pro" name="Pro" >
+      </div>
+     
+
+      <label for = "Card">Credit card number: </label>
+      <input type="number" name = "Card"> 
+
+      <label for = "CVC">CVC: </label>
+      <input type="number" name = "email"> 
+
+      <label for = "Expiration_date">Expiration_date: </label>
+      <input type="date" name = "Expiration_date"> 
+
+      <label for = "Billing_address">Billing_address: </label>
+      <input type="text" name = "Billing_address"> 
+
+    </form>
+  </body>
+</html>
